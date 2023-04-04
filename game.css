@@ -1,0 +1,68 @@
+.choice-container{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 2rem;
+    border: 0.1rem solid rebeccapurple;
+    background-color:white;
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow:0  0.5rem 0.5rem 0 rgb(223, 160, 104);
+    transform:translateY(0.5rem);
+    transition: transform 100ms;
+
+}
+
+.choice-prefix{
+    padding: 1.5rem 2.5rem;
+    background-color:antiquewhite;
+    color:rgb(143, 60, 225);
+}
+
+.choice-text{
+    padding: 1.5rem;
+    font-family: "Dancing Script";
+    font-size: 2.5rem;
+    color: rgb(45, 186, 225);
+    width: 100%;
+}
+
+.correct{
+    background-color: rgba(41, 214, 15, 0.882);
+    
+}
+
+.incorrect{
+    background-color: red;
+}
+
+/*HUD*/
+#hud{
+    display:flex;
+    justify-content:space-between;
+}
+
+.hud-prefix{
+    font-size: 4rem;
+    color: rgb(15, 11, 20);
+    text-align: center;
+}
+
+.hud-main-text{
+    text-align: center;
+}
+
+#progressBar{
+    width: 20rem;
+    height: 5rem;
+    border: 0.3rem solid rgb(21, 17, 24);
+}
+
+#progressBarFull{
+    height: 3rem;
+    background-color: rgb(215, 205, 224);
+    width: 0%;
+}
+
